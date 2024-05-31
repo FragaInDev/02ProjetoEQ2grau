@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputA"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:hint="@string/inputA"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputB"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:hint="@string/inputB"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputA" />
+
+    <EditText
+        android:id="@+id/inputC"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:hint="@string/inputC"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputB" />
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="207dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:text="@string/calcular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputC" />
+
+    <TextView
+        android:id="@+id/resDelta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/resDelta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message" />
+
+    <TextView
+        android:id="@+id/resX1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/resX1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resDelta" />
+
+    <TextView
+        android:id="@+id/resX2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/resX2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resX1" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="324dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calcButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

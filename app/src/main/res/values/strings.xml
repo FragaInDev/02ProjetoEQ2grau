@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">02ProjetoEQ2grau</string>
+    <string name="inputA">Primeiro valor</string>
+    <string name="inputB">Segundo valor</string>
+    <string name="inputC">Terceiro valor</string>
+    <string name="calcular">Calcular</string>
+    <string name="resX1">X1: </string>
+    <string name="resX2">X2: </string>
+    <string name="resDelta">Delta: </string>
+    <string name="message"> </string>
+</resources>
