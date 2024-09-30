@@ -1,3 +1,6 @@
+/*
+*@author:Bruno Fraga
+*/
 package com.fraga.a02projetoeq2grau;
 
 import android.os.Bundle;
